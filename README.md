@@ -25,6 +25,12 @@ The application monitors highly specific coordinate points in the facial mesh st
 * **Left Eye Coordinates:** Top Vertex (`386`), Bottom Vertex (`374`)
 * **Right Eye Coordinates:** Top Vertex (`159`), Bottom Vertex (`145`)
 
+```text
+          [159] (Right Top)                 [386] (Left Top)
+            .-------.                         .-------.
+           /         \                       /         \
+          '-----------'                     '-----------'
+          [145] (Right Bottom)              [374] (Left Bottom)
 [159] (Right Top)                 [386] (Left Top)
         .-------.                         .-------.
        /         \                       /         \
