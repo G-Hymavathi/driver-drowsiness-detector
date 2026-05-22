@@ -30,15 +30,13 @@ The application monitors highly specific coordinate points in the facial mesh st
             .-------.                         .-------.
            /         \                       /         \
           '-----------'                     '-----------'
-          [145] (Right Bottom)              [374] (Left Bottom)
-[159] (Right Top)                 [386] (Left Top)
-        .-------.                         .-------.
-       /         \                       /         \
-      '-----------'                     '-----------'
-      [145] (Right Bottom)              [374] (Left Bottom)
-The system calculates the vertical Euclidean distance using the standard distance formula:
-$$\\text{Distance} = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+          [145] (Right Bottom)              [374] (Left Bottom)```
 
+The system calculates the vertical Euclidean distance using the standard distance formula:
+
+$$
+\text{Distance} = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+$$
 If the average distance falls below the fine-tuned threshold of `0.02` for more than **1.0 consecutive second**, a thread is spawned to command the system to alert the user.
 
 ---
